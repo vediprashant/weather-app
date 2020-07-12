@@ -54,7 +54,7 @@ app.get('/weather', (req, res) => {
 
 
 app.get('/help', (req, res) => {
-    res.render('Help', {
+    res.render('help', {
         title : 'help',
         name :  'Prashant Chaturvedi'
     })
